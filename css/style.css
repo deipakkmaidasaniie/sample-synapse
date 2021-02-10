@@ -113,7 +113,7 @@ body::-webkit-scrollbar {
 }
 
 .contact-us{
-    display: flex;
+  display: flex;
     height: 100%;
     border: 1px solid #fff;
     font-family: Roboto;
@@ -369,6 +369,7 @@ body::-webkit-scrollbar {
 /* Contact Us */
 
 .contact-us-section{
+
     width: 100%;
     position: relative;
     height: 100vh;

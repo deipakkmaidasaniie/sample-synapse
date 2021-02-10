@@ -108,6 +108,7 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+
 .menu > img{
   -webkit-filter: drop-shadow(5px 5px 20px #0E0869);
   filter: drop-shadow(5px 5px 20px #0E0869);

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <a href="registration.html">  <div class="logo"></div></a>
+    <a href="reg.html">  <div class="logo"></div></a>
 
-    <link rel="stylesheet" href="mystyles.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
-   <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+   <link rel="stylesheet" href="css/utilities.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/mystyles.css">
+
+
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"   integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -23,15 +26,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
     <title>Registration</title>
     <style>
-    @media only screen and (min-width:701px) and (max-width:800px)
+    @media only screen and (min-width:701px) and (max-width:900px)
     {
+      .contact-us{
+        display: none;
+      }
       .img1{
         position: absolute;
         background-image: url(images/png/register.png);
         background-size: contain;
-        height:130%;
+        height:100%;
         width:100%;
-        background-repeat: round;
 
         }
         .img2{
@@ -58,75 +63,77 @@
         }
         .event1{
           margin-top: -30px;
-          margin-left:-70px;
+          margin-left:-60px;
           display:block;
-          width: 150px;
-          height: 30px;
+          width: 200px;
+          height: 40px;
           line-height: normal;
 
         }
 
         .event1:hover:after{
           display: block;
-          margin-left: 200px;
-          margin-top:-50px;
-          width:300px;
+          margin-left: -50px;
+          margin-top:30px;
+          width:270px;
           height:300px;
           line-height: 18px;
-
+          text-align: justify;
         }
 
         .event2{
           display:block;
-          margin-top: -50px;
-          margin-left:-70px;
-          width: 150px;
-          height: 30px;
+          margin-top: 320px;
+          margin-left:-60px;
+          width: 200px;
+          height: 40px;
           line-height: normal;
 
 
         }
         .event2:hover:after{
           display: block;
-          margin-left: 200px;
-          margin-top:-100px;
-          width:300px;
+          margin-left: -50px;
+          margin-top:-400px;
+          width:270px;
           height:300px;
           line-height: 18px;
+          text-align: justify;
 
 
         }
 
         .event3{
           display:block;
-          margin-top:-70px;
-          margin-left:-70px;
-          width: 150px;
-          height: 30px;
+          margin-top:320px;
+          margin-left:-60px;
+          width: 200px;
+          height: 40px;
           line-height: normal;
 
 
         }
         .event3:hover:after{
           display: block;
-          margin-left: 200px;
-          margin-top:-150px;
-          width:300px;
-          height:200px;
+          margin-left: -50px;
+          margin-top:-480px;
+          width:270px;
+          height:300px;
           line-height: 18px;
-
+          text-align: justify;
 
         }
-        .register{
+          .register{
           position: absolute;
-          margin-top:30px;
-          margin-left:-200px;
+          margin-top:130px;
+          margin-left:-560px;
           width: 200px;
           height: 40px;
           line-height: normal;
         }
 
-        .container{
+
+      /*  .container{
 
          display:flex;
          margin-top:10px;
@@ -136,6 +143,19 @@
          border:none;
          background-color: black;
          background-size: cover;
+
+        }*/
+        .container{
+
+         width:420px;
+         height:720px;
+         top:50%;
+         left:50%;
+         transform:translate(-50%,-50%);
+         border:none;
+         background-color: black;
+         background-size: cover;
+
 
         }
 
@@ -204,7 +224,7 @@
                   </div>
                   </div>
                   </div>
-                  <script src="script.js"></script>
+                  <script src="js/script.js"></script>
 
                   <div class="container">
                     <div class="content">
@@ -217,34 +237,45 @@
                       <a href="#"><div class="register">Register</div></a>
                       </div>
                     </div>
-                    <div class="img1">
+                <div class="img1" ><img src="images/png/register.png" width="100%"></img>
                       <div class="eventcontent"></div>
                     </div>
-                    <div  class="img2" id="bottom" >
-                      <div id="unique" class="contact-content">
-                      <div >CONTACT US</div>
-                        <br>
-                        <a href="#"><div style="margin-top:-50px">synapse.thefest@gmail.com </div></a>
-                        <div style="color:yellow">FOLLOW US ON </div>
-                      <a href="#"><img src="images/png/Facebook-logo.png" ></a>
-                      <a href="#"><img src="images/png/Youtube-logo.png" ></a>
-                        <a href="#"><img src="images/png/instagram_events.png" width="60px"></a>
-                      </div>
-                      </div>
-                      <div class="links" id="one">
-                        <a href="#">Home</a>
-                        <a href="#">Registration</a><br><br><br>
-                          <a href="#">Pronites</a><br><br><br>
-                          <a href="#">Events</a><br><br><br>
-                          <a href="#">Schedule</a><br><br><br>
-                          <a href="#">Sponsors</a><br><br><br>
-                          <a href="#">Brochure</a><br><br><br>
-                          <a href="#">Synapse Team</a><br><br>
+                      <footer class="footer" style="margin-top:900px;overflow:scroll">
+                        <div class="footer-box1">
+
+                          <div id="bottom"><a href=""><img src="images/png/logo.png"></a></div>
+
+                            <div><p class="footer-headings">contact-us</p></div>
+
+                            <div><address><a href="mailto:synapse.thefest@gmail.com" class="footer-text">synapse.thefest@gmail.com</a>
+                            </address>
                         </div>
 
-                      </div>
-                    </div>
-                    <script src="script.js"></script>
+                        </div>
+                        <div class="footer-box2">
+                            <div></div>
+                            <div><span class="footer-headings">FOLLOW US ON</span></div>
+                            <div>
+                                <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+                                <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+                                <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-box3">
+                            <ul class="footer-text">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Registration</a></li>
+                                <li><a href="">Pronites</a></li>
+                                <li><a href="">Events</a></li>
+                                <li><a href="">Schedule</a></li>
+                                <li><a href="">Sponsors</a></li>
+                                <li><a href="">Brochure</a></li>
+                                <li><a href="">Synapse Team</a></li>
+                            </ul>
+                        </div>
+                    </footer>
+
+                    <script src="js/script.js"></script>
 
                 </body>
               </html>

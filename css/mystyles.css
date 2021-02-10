@@ -1,3 +1,14 @@
+.contact-us{
+  display: flex;
+    height: 100%;
+    border: 1px solid #fff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 30px;
+    box-shadow: inset 0px 0px 0px 0px #fff;
+    align-items: center;
+}
 
 .logo{
 left: 1.1%;
@@ -15,14 +26,13 @@ background-image: url(../images/png/logo.png);
     height: 1030px;
     left: -7px;
     top: -15px;
-    background-image: url(../images/png/register.png);
   /*background-repeat: repeat;*/
   /*background-size: cover;*/
   z-index: -20;
   /*display: none;*/
 
 }
-.img2{
+/*.img2{
   position: absolute;
 width: 100%;
 height: 406px;
@@ -33,12 +43,12 @@ background-repeat:round;
 padding-right:0;
 margin-right: 0;
 align-items: center;
-}
+}*/
 .container{
   position: absolute;
 width: 1218.24px;
 height: 464px;
-left: 66px;
+left: 186px;
 top: 154px;
 background-color: #0C1011;
 border: 10px solid #33ccff;
@@ -164,7 +174,7 @@ justify-content: center;
   .event2:hover:after{
     font:red;
     margin-left: 350px;
-    margin-top:-250px;
+    margin-top:-230px;
       color:cyan;
     float:left;
    content:attr(data-text);
@@ -198,7 +208,7 @@ justify-content: center;
 .event3:hover:after{
   font:cyan;
   margin-left: 350px;
-  margin-top:-300px;
+  margin-top:-310px;
     color:cyan;
   float:left;
  content:attr(data-text);
@@ -278,6 +288,9 @@ img { max-width: 100%; height: auto; }
 
 @media only screen and (min-width:100px) and (max-width:400px)
 {
+  .contact-us{
+    display: none;
+  }
   .img1{
     background-image: url(../images/png/register-mobile.png);
     background-size: contain;
@@ -297,7 +310,7 @@ img { max-width: 100%; height: auto; }
       display:block;
       font-size: 50px;
       line-height: 100px;
-      margin-left:-60px;
+      margin-left:-80px;
       margin-top: -10px;
 
     }
@@ -328,7 +341,7 @@ img { max-width: 100%; height: auto; }
     .event1:hover:after{
       display: block;
       margin-left: -50px;
-      margin-top:20px;
+      margin-top:10px;
       width:250px;
       height:300px;
       line-height: 18px;
@@ -423,11 +436,11 @@ img { max-width: 100%; height: auto; }
     {
       display:block;
     }
-    .container{
+    /*.container{
 
      display:block;
      margin-top:10px;
-     margin-left:-60px;
+     margin-left:-26vh;
      width:320px;
      height:720px;
      border:none;
@@ -435,18 +448,35 @@ img { max-width: 100%; height: auto; }
      background-size: cover;
 
 
+    }*/
+    .container{
+
+     width:300px;
+     height:720px;
+     top:80%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     border:none;
+     background-color: black;
+     background-size: cover;
+
+
     }
+
 
 }
 
 @media only screen and (min-width:400px) and (max-width:600px)
 {
+  .contact-us{
+    display:none;
+  }
   .img1{
     background-image: url(../images/png/register-mobile.png);
+    display: block;
     background-size: contain;
     width:100%;
-    display: block;
-    background-repeat: round;
+    height: 130%;
 
     }
     .img2{
@@ -532,7 +562,7 @@ color: #FFFFFF;
     .event1:hover:after{
       display: block;
       margin-left: -50px;
-      margin-top:20px;
+      margin-top:30px;
       width:250px;
       height:300px;
       line-height: 18px;
@@ -541,7 +571,7 @@ color: #FFFFFF;
 
     .event2{
       display:block;
-      margin-top: 300px;
+      margin-top: 320px;
       margin-left:-100px;
       width: 200px;
       height: 40px;
@@ -563,7 +593,7 @@ color: #FFFFFF;
 
     .event3{
       display:block;
-      margin-top:300px;
+      margin-top:320px;
       margin-left:-100px;
       width: 200px;
       height: 40px;
@@ -585,13 +615,28 @@ color: #FFFFFF;
     body
     {
       display:block;
+      height:200%;
     }
-    .container{
+  /*  .container{
 
+      display:block;
      margin-top:10px;
-     margin-left:-60px;
+     margin-left: -24vh;
      width:390px;
      height:720px;
+     border:none;
+     background-color: black;
+     background-size: cover;
+
+
+    }*/
+    .container{
+
+     width:350px;
+     height:720px;
+     top:75%;
+     left:50%;
+     transform:translate(-50%,-50%);
      border:none;
      background-color: black;
      background-size: cover;
@@ -602,10 +647,15 @@ color: #FFFFFF;
 }
 @media only screen and (min-width:600px) and (max-width:700px)
 {
+  .contact-us{
+    display: none;
+  }
+
   .img1{
     background-image: url(../images/png/register-mobile.png);
     background-size: contain;
     width:100%;
+    height: 200%;
     display: block;
     background-repeat: round;
 
@@ -701,7 +751,7 @@ color: #FFFFFF;
 
     .event2{
       display:block;
-      margin-top: 300px;
+      margin-top: 320px;
       margin-left:-100px;
       width: 200px;
       height: 40px;
@@ -723,7 +773,7 @@ color: #FFFFFF;
 
     .event3{
       display:block;
-      margin-top:300px;
+      margin-top:320px;
       margin-left:-100px;
       width: 200px;
       height: 40px;
@@ -760,11 +810,8 @@ color: #FFFFFF;
     color: #FFFFFF;
     }
 
-    body
-    {
-      display:block;
-    }
-    .container{
+
+    /*.container{
 
      margin-top:10px;
      margin-left:-60px;
@@ -777,25 +824,33 @@ color: #FFFFFF;
      justify-content: center;
 
 
-    }
+    }*/
+    .container{
+
+     width:410px;
+     height:720px;
+     top:60%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     border:none;
+     background-color: black;
+     background-size: cover;
+
 
     }
 
+    }
 
 
-
-
-}
-@media only screen and (min-width:701px) and (max-width:800px)
+@media only screen and (min-width:900px) and (max-width:1200px)
 {
-  .img1{
+  /*.img1{
     position: absolute;
-    background-image: url(../images/png/register.png);
+    background-image: url(images/png/register-mobile.png);
     background-size: contain;
-    width:400px;
     background-repeat: no-repeat;
 
-    }
+    }*/
     .img2{
       position: absolute;
 
@@ -815,15 +870,15 @@ color: #FFFFFF;
 
     }
     .wrapper,.eventcontent{
-    /*  display:block;
-      width:100%;*/
+      display:block;
+      width:100%;
     }
     .event1{
       margin-top: -30px;
       margin-left:-70px;
       display:block;
-      width: 150px;
-      height: 30px;
+      width: 180px;
+      height: 40px;
       line-height: normal;
 
     }
@@ -832,7 +887,7 @@ color: #FFFFFF;
       display: block;
       margin-left: 200px;
       margin-top:0px;
-      width:500px;
+      width:480px;
       height:300px;
       line-height: 18px;
 
@@ -842,8 +897,8 @@ color: #FFFFFF;
       display:block;
       margin-top: -50px;
       margin-left:-70px;
-      width: 150px;
-      height: 30px;
+      width: 180px;
+      height: 40px;
       line-height: normal;
 
 
@@ -851,8 +906,8 @@ color: #FFFFFF;
     .event2:hover:after{
       display: block;
       margin-left: 200px;
-      margin-top:-100px;
-      width:500px;
+      margin-top:-60px;
+      width:480px;
       height:300px;
       line-height: 18px;
 
@@ -863,8 +918,8 @@ color: #FFFFFF;
       display:block;
       margin-top:-70px;
       margin-left:-70px;
-      width: 150px;
-      height: 30px;
+      width: 180px;
+      height: 40px;
       line-height: normal;
 
 
@@ -872,9 +927,9 @@ color: #FFFFFF;
     .event3:hover:after{
       display: block;
       margin-left: 200px;
-      margin-top:-100px;
-      width:500px;
-      height:20px;
+      margin-top:-120px;
+      width:480px;
+      height:300px;
       line-height: 18px;
 
 
@@ -887,17 +942,40 @@ color: #FFFFFF;
       height: 40px;
       line-height: normal;
     }
+    body
+    {
+      background-image: url(../images/png/register-mobile.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      overflow: scroll;
+      height: 200%;
 
-    .container{
+
+    }
+  /*  .container{
 
      display:block;
      margin-top:10px;
-     margin-left:20px;
-     width:400px;
+     margin-left:-60px;
+     width:820px;
      height:520px;
      border:none;
      background-color: black;
      background-size: cover;
+
+    }*/
+    .container{
+
+     width:840px;
+     height:620px;
+     top:55%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     background-color: black;
+     background-size: cover;
+     overflow: scroll;
+     border: none;
+
 
     }
 
@@ -905,9 +983,12 @@ color: #FFFFFF;
 
 
 
-}
 
-@media only screen and (min-width:800px) and (max-width:1200px)
+
+
+
+}
+@media only screen and (min-width:1200px) and (max-width:1300px)
 {
   .img1{
     /*position: absolute;
@@ -943,7 +1024,7 @@ color: #FFFFFF;
       margin-top: -30px;
       margin-left:-70px;
       display:block;
-      width: 180px;
+      width: 200px;
       height: 40px;
       line-height: normal;
 
@@ -961,9 +1042,9 @@ color: #FFFFFF;
 
     .event2{
       display:block;
-      margin-top: -50px;
+      margin-top: 10px;
       margin-left:-70px;
-      width: 180px;
+      width: 200px;
       height: 40px;
       line-height: normal;
 
@@ -972,7 +1053,7 @@ color: #FFFFFF;
     .event2:hover:after{
       display: block;
       margin-left: 200px;
-      margin-top:-100px;
+      margin-top:-120px;
       width:480px;
       height:300px;
       line-height: 18px;
@@ -982,9 +1063,9 @@ color: #FFFFFF;
 
     .event3{
       display:block;
-      margin-top:-70px;
+      margin-top:50px;
       margin-left:-70px;
-      width: 180px;
+      width: 200px;
       height: 40px;
       line-height: normal;
 
@@ -993,7 +1074,7 @@ color: #FFFFFF;
     .event3:hover:after{
       display: block;
       margin-left: 200px;
-      margin-top:-100px;
+      margin-top:-240px;
       width:480px;
       height:300px;
       line-height: 18px;
@@ -1002,7 +1083,7 @@ color: #FFFFFF;
     }
     .register{
       position: absolute;
-      margin-top:30px;
+      margin-top:70px;
       margin-left:-200px;
       width: 200px;
       height: 40px;
@@ -1013,8 +1094,10 @@ color: #FFFFFF;
       background-image: url(../images/png/register-mobile.png);
       background-repeat: no-repeat;
       background-size: contain;
+      height: 300%;
+      overflow: scroll;
     }
-    .container{
+  /*  .container{
 
      display:block;
      margin-top:10px;
@@ -1025,13 +1108,28 @@ color: #FFFFFF;
      background-color: black;
      background-size: cover;
 
+    }*/
+    .container{
+
+     width:850px;
+     height:720px;
+     top:65%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     background-color: black;
+     background-size: cover;
+     border: none;
+
+
     }
 
 
 
 
 
+
 }
+
 
 
 
