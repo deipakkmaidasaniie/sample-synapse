@@ -1,3 +1,4 @@
+
 .contact-us{
   display: flex;
     height: 100%;
@@ -48,8 +49,11 @@ align-items: center;
   position: absolute;
 width: 1218.24px;
 height: 464px;
-left: 186px;
-top: 154px;
+/*left: 186px;
+top: 154px;*/
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
 background-color: #0C1011;
 border: 10px solid #33ccff;
 border-image: linear-gradient(to right, #80bfff, #33ccff,#0073e6,#80bfff, #33ccff);
@@ -60,43 +64,8 @@ justify-content: center;
 
 
 }
-  /*.container{
-    height:480px;
-    width:939px;
-    border: 1px solid #FFFFFF;
-    border-right: #0C1011;
-    box-sizing: border-box;
-    align:justify;
-    margin-top:108px;
-    margin-left:213px;
-    background-size: cover;
-  /*  display:none;
 
-  }*/
-  /*.eventcontent{
-    left:854px;
-    margin-top:360px;
-    background-color: #0C1011;
-    height:479px;
-    width:280px;
-    border: 1px solid #FFFFFF;
-    border-left: #0C1011;
-  }*/
 
-  /*.eventcontent{
-    display:grid;
-    grid-template-areas: overlap;
-    grid-area: overlap;
-    grid-template-columns: 1fr;
-    margin-left:1190px;
-    /*margin-top:190px;
-    background-color: #0C1011;
-    height:680px;
-    width:150px;
-    border: 1px solid #FFFFFF;
-    border-left: #0C1011;
-
-  }*/
 
   .content{
     position: absolute;
@@ -148,6 +117,7 @@ justify-content: center;
     transition:0.5s;
     overflow: visible;
     text-align: justify;
+    cursor:pointer;
 
   /*  display:none;*/
 
@@ -184,6 +154,8 @@ justify-content: center;
     transition:0.5s;
     overflow: visible;
     text-align: justify;
+    cursor:pointer;
+
   /*  display:none;*/
 
   }
@@ -218,6 +190,8 @@ justify-content: center;
   transition:0.5s;
   overflow: visible;
   text-align: justify;
+  cursor:pointer;
+
   /*display:none;*/
 
 }
@@ -236,52 +210,14 @@ justify-content: center;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  background-color: #7513A8;
+  background-color:red;
 
   /*display:none;*/
 }
-.links,#one{
-  display:none;
-  position: absolute;
-width: 200px;
-height: 410px;
-left: 33px;
-top: 1300px;
 
-font-family: Qanelas;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 10px;
-/* or 62% */
-
-
-color: #FFFFFF;
-}
-.colorclass{
-  display: none;
-      color:white;
-      font-size: 20px;
+    #footer-margin{
+      margin-top:900px;
     }
-    .contact-content{
-      display: none;
-      position: relative;
-      left:8.33%;
-  right: 39.44%;
-  top: 13.09%;
-  bottom: 33.38%;
-
-  font-family: Bebas Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 38px;
-  line-height: 46px;
-  background: linear-gradient(to right, #E38CF2,white);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-
-    }
-
 
 
 img { max-width: 100%; height: auto; }
@@ -295,6 +231,7 @@ img { max-width: 100%; height: auto; }
     background-image: url(../images/png/register-mobile.png);
     background-size: contain;
     width:100%;
+    height: 130%;
     display: block;
     background-repeat: round;
 
@@ -321,7 +258,8 @@ img { max-width: 100%; height: auto; }
     .register{
       position: absolute;
       margin-top:90px;
-      margin-left:-600px;
+      /*margin-left:-600px;*/
+      left:15%;
       width: 200px;
       height: 40px;
       line-height: normal;
@@ -330,7 +268,8 @@ img { max-width: 100%; height: auto; }
     }
     .event1{
       margin-top: -30px;
-      margin-left:-100px;
+    /*  margin-left:-100px;*/
+    left:15%;
       display:block;
       width: 200px;
       height: 40px;
@@ -346,12 +285,15 @@ img { max-width: 100%; height: auto; }
       height:300px;
       line-height: 18px;
       text-align: justify;
+      cursor:pointer;
+
     }
 
     .event2{
       display:block;
       margin-top: 300px;
-      margin-left:-100px;
+    /*  margin-left:-100px;*/
+    left:15%;
       width: 200px;
       height: 40px;
       line-height: normal;
@@ -366,6 +308,7 @@ img { max-width: 100%; height: auto; }
       height:300px;
       line-height: 18px;
       text-align: justify;
+      cursor:pointer;
 
 
     }
@@ -373,7 +316,8 @@ img { max-width: 100%; height: auto; }
     .event3{
       display:block;
       margin-top:300px;
-      margin-left:-100px;
+    /*  margin-left:-100px;*/
+    left:15%;
       width: 200px;
       height: 40px;
       line-height: normal;
@@ -388,67 +332,16 @@ img { max-width: 100%; height: auto; }
       height:300px;
       line-height: 18px;
       text-align: justify;
+      cursor:pointer;
 
-    }
-.colorclass{
-  display: block;
-      color:white;
-      font-size: 20px;
-    }
-    .contact-content{
-      display: block;
-      position: relative;
-      left:8.33%;
-  right: 39.44%;
-  top: 13.09%;
-  bottom: 33.38%;
-
-  font-family: Bebas Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 38px;
-  line-height: 46px;
-  background: linear-gradient(to right, #E38CF2,white);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-
-    }
-    .links,#one{
-      display: block;
-      position: absolute;
-  width: 200px;
-  height: 410px;
-  left: 33px;
-  top: 1300px;
-
-  font-family: Qanelas;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 10px;
-  /* or 62% */
-
-
-  color: #FFFFFF;
     }
 
     body
     {
       display:block;
+      background-color:#0B083D;
+
     }
-    /*.container{
-
-     display:block;
-     margin-top:10px;
-     margin-left:-26vh;
-     width:320px;
-     height:720px;
-     border:none;
-     background-color: black;
-     background-size: cover;
-
-
-    }*/
     .container{
 
      width:300px;
@@ -465,6 +358,7 @@ img { max-width: 100%; height: auto; }
 
 
 }
+
 
 @media only screen and (min-width:400px) and (max-width:600px)
 {
@@ -485,47 +379,6 @@ img { max-width: 100%; height: auto; }
       width:100%;
       height:140%;
       background-repeat: no-repeat;
-    }
-    .colorclass{
-      display: block;
-      color:white;
-      font-size: 20px;
-    }
-    .contact-content{
-      display: block;
-      position: relative;
-      left:8.33%;
-right: 39.44%;
-top: 13.09%;
-bottom: 33.38%;
-
-font-family: Bebas Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 38px;
-line-height: 46px;
-background: linear-gradient(to right, #E38CF2,white);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-
-    }
-    .links,#one{
-      display: block;
-      position: absolute;
-width: 200px;
-height: 410px;
-left: 33px;
-top: 1300px;
-
-font-family: Qanelas;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 10px;
-/* or 62% */
-
-
-color: #FFFFFF;
     }
     .content{
       display:block;
@@ -567,6 +420,8 @@ color: #FFFFFF;
       height:300px;
       line-height: 18px;
       text-align: justify;
+      cursor:pointer;
+
     }
 
     .event2{
@@ -587,6 +442,7 @@ color: #FFFFFF;
       height:300px;
       line-height: 18px;
       text-align: justify;
+      cursor:pointer;
 
 
     }
@@ -594,7 +450,8 @@ color: #FFFFFF;
     .event3{
       display:block;
       margin-top:320px;
-      margin-left:-100px;
+      /*margin-left:-100px;*/
+      left:15%;
       width: 200px;
       height: 40px;
       line-height: normal;
@@ -609,6 +466,7 @@ color: #FFFFFF;
       height:300px;
       line-height: 18px;
       text-align: justify;
+      cursor:pointer;
 
     }
 
@@ -616,6 +474,7 @@ color: #FFFFFF;
     {
       display:block;
       height:200%;
+      background-color:#0B083D;
     }
   /*  .container{
 
@@ -634,7 +493,7 @@ color: #FFFFFF;
 
      width:350px;
      height:720px;
-     top:75%;
+     top:70%;
      left:50%;
      transform:translate(-50%,-50%);
      border:none;
@@ -643,6 +502,10 @@ color: #FFFFFF;
 
 
     }
+    #footer-margin{
+      margin-top:850px;
+    }
+
 
 }
 @media only screen and (min-width:600px) and (max-width:700px)
@@ -664,49 +527,10 @@ color: #FFFFFF;
       background-image: url(../images/png/contact-mobile.png);
       background-size: contain;
       width:100%;
-      height:1700px;
+      height:auto; /*1700*/
       background-repeat: no-repeat;
     }
-    .colorclass{
-      display: block;
-      color:white;
-      font-size: 20px;
-    }
-    .contact-content{
-      display: block;
-      position: relative;
-      left:8.33%;
-right: 39.44%;
-top: 7.09%;
-bottom: 33.38%;
 
-font-family: Bebas Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 38px;
-line-height: 46px;
-background: linear-gradient(to right, #E38CF2,white);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-
-    }
-    .links,#one{
-      position: absolute;
-width: 200px;
-height: 410px;
-left: 33px;
-top: 1300px;
-
-font-family: Qanelas;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 10px;
-/* or 62% */
-
-
-color: #FFFFFF;
-    }
     .content{
       display:block;
       font-size: 50px;
@@ -715,10 +539,7 @@ color: #FFFFFF;
       margin-top: -10px;
 
     }
-    .wrapper,.eventcontent{
-    /*  display:block;
-      width:100%;*/
-    }
+
     .register{
       position: absolute;
       margin-top:130px;
@@ -774,7 +595,8 @@ color: #FFFFFF;
     .event3{
       display:block;
       margin-top:320px;
-      margin-left:-100px;
+    /*  margin-left:-100px;*/
+    left:15%;
       width: 200px;
       height: 40px;
       line-height: normal;
@@ -791,24 +613,7 @@ color: #FFFFFF;
       text-align: justify;
 
     }
-    .links,#one{
-      display: block;
-      position: absolute;
-    width: 200px;
-    height: 410px;
-    left: 33px;
-    top: 1300px;
 
-    font-family: Qanelas;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 10px;
-    /* or 62% */
-
-
-    color: #FFFFFF;
-    }
 
 
     /*.container{
@@ -825,6 +630,10 @@ color: #FFFFFF;
 
 
     }*/
+    body{
+      background-color:#0B083D;
+      height: auto;
+    }
     .container{
 
      width:410px;
@@ -949,7 +758,7 @@ color: #FFFFFF;
       background-size: contain;
       overflow: scroll;
       height: 200%;
-
+      background-color: #0B083D
 
     }
   /*  .container{
@@ -1096,6 +905,7 @@ color: #FFFFFF;
       background-size: contain;
       height: 300%;
       overflow: scroll;
+      background-color: #0B083D
     }
   /*  .container{
 
