@@ -369,7 +369,7 @@ img { max-width: 100%; height: auto; }
       display:block;
       position: absolute;
       width: 250px;
-      height: 160px;
+      height: 180px;
       left:-30px;
       border: 2px solid #FAF1F5;
       box-sizing: border-box;
@@ -406,7 +406,7 @@ img { max-width: 100%; height: auto; }
       display:block;
       position: absolute;
       width: 250px;
-      height: 160px;
+      height: 180px;
       left:-30px;
       border: 2px solid #FAF1F5;
       box-sizing: border-box;
