@@ -9,7 +9,9 @@
     box-shadow: inset 0px 0px 0px 0px #fff;
     align-items: center;
 }
-
+html{
+  overflow-y: scroll;
+}
 /*.logo{
 left: 1.1%;
 right: 95.53%;
@@ -458,7 +460,7 @@ img { max-width: 100%; height: auto; }
       top:230px;
     }
     .wrapper1:hover  .event3{
-      top:600px;
+      top:630px;
     }
     .event3:hover:after{
       display: block;
@@ -979,6 +981,9 @@ img { max-width: 100%; height: auto; }
 
     @media only screen and (min-width:701px) and (max-width:900px)
     {
+      html{
+        overflow-y: scroll;
+      }
       .contact-us{
         display: none;
       }
@@ -1175,7 +1180,9 @@ img { max-width: 100%; height: auto; }
           margin-top:1050px;
         }
         body{
+          display: block;
           background-color:#19194d;
+          overflow-y: scroll;
 
         }
         .container{
@@ -1218,6 +1225,9 @@ img { max-width: 100%; height: auto; }
       top:700px;
       background-repeat: no-repeat;
     }*/
+    html{
+      overflow-y: scroll;
+    }
     .content{
       display:block;
       font-size: 50px;
@@ -1359,10 +1369,10 @@ img { max-width: 100%; height: auto; }
 
     body
     {
-      background-image: url(../images/png/register-mobile.png);
+      display: block;
       background-repeat: no-repeat;
       background-size: contain;
-      overflow: scroll;
+      overflow-y: scroll;
       height: 200%;
       background-color: #0B083D
 
