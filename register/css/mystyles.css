@@ -436,10 +436,10 @@ img { max-width: 100%; height: auto; }
 
     }
     .wrapper:hover .event2{
-      top:490px;
+      top:520px;
     }
     .wrapper:hover .event3{
-      top:530px;
+      top:560px;
     }
 
     .event3{
@@ -489,7 +489,7 @@ img { max-width: 100%; height: auto; }
       background-color: #b3ffff;
       color:red;
       font-weight: bold;
-      font-size: 60%;
+      font-size: 55%;
 
       /*display:none;*/
     }
@@ -653,7 +653,7 @@ img { max-width: 100%; height: auto; }
       /*display:none;*/
     }
     .wrapper:hover .event2{
-     top:530px;
+     top:560px;
    }
    .wrapper:hover .event3{
      top:570px;
